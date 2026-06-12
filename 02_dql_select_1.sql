@@ -100,7 +100,7 @@ from
 select
     distinct category_code
 from
-    tbl_menu
+    tbl_menu;
 
 
 # ==========================================
@@ -163,7 +163,7 @@ from
     tbl_menu
 order by
     category_code asc,
-    menu_price desc;
+    menu_price desc;   # 위에 것이 먼저 배열, 그 중 아래꺼대로 배열
 
 
 
